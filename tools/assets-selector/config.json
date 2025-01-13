@@ -12,3 +12,23 @@
     }
   ]
 }
+{ 
+	"filterSchema": [ 
+    	{ 
+        	"header": "Assets Tags", 
+        	"groupKey": "AssetTagsGroup", 
+        	"fields": [ 
+            	{ 
+                	"element": "taggroup", 
+                	"name": "property=metadata.application.xcm:keywords.id", 
+                	"columns": 3 
+            	} 
+        	] 
+    	} 
+	] 
+} 
+{
+ 	"assetDomainMapping": {
+    	  "delivery-p24706-e491522.adobeaemcloud.com":"mediapreprod.store.testdomain.com",
+ 	}
+}
