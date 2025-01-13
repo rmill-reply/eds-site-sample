@@ -5,7 +5,7 @@
       "id": "asset-library",
       "title": "AEM Assets Library",
       "environments": ["edit"],
-      "url": "https://experience.adobe.com/solutions/CQ-assets-selectors/static-assets/resources/franklin/asset-selector.html",
+      "url": "https://experience.adobe.com/solutions/CQ-assets-selectors/static-assets/resources/franklin/asset-selector.html?rail=false",
       "isPalette": true,
       "includePaths": ["**.docx**"],
       "passConfig": true,
@@ -18,5 +18,38 @@
       "url": "/tools/sidekick/library.html",
       "includePaths": ["**.docx**"]
     }
-  ]
-}
+    { 
+	"blockName": [ 
+    	{ 
+        	"mimeType": "video/*", 
+        	"value": "Core Embed" 
+    	} 
+	] 
+} 
+  { 
+	"copyMode": [ 
+    	{ 
+        	"mimeType": "image/*", 
+        	"value": "reference" 
+    	} 
+	] 
+} 
+{ 
+	"filterSchema": [ 
+    	{ 
+        	"header": "Assets Tags", 
+        	"groupKey": "AssetTagsGroup", 
+        	"fields": [ 
+            	{ 
+                	"element": "taggroup", 
+                	"name": "property=metadata.application.xcm:keywords.id", 
+                	"columns": 3 
+            	} 
+        	] 
+    	} 
+	] 
+} 
+
+
+    
+]
