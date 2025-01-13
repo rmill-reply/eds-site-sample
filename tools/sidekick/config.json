@@ -18,44 +18,5 @@
       "url": "/tools/sidekick/library.html",
       "includePaths": ["**.docx**"]
     }
-{
- 	"assetDomainMapping": {
-    	  "delivery-p24706-e491522.adobeaemcloud.com":"mediapreprod.store.testdomain.com",
-}
-}		
-	  
-    { 
-	"blockName": [ 
-    	{ 
-        	"mimeType": "video/*", 
-        	"value": "Core Embed" 
-    	} 
-	] 
-} 
-  { 
-	"copyMode": [ 
-    	{ 
-        	"mimeType": "image/*", 
-        	"value": "reference" 
-    	} 
-	] 
-} 
-{ 
-	"filterSchema": [ 
-    	{ 
-        	"header": "Assets Tags", 
-        	"groupKey": "AssetTagsGroup", 
-        	"fields": [ 
-            	{ 
-                	"element": "taggroup", 
-                	"name": "property=metadata.application.xcm:keywords.id", 
-                	"columns": 3 
-            	} 
-        	] 
-    	} 
-	] 
-} 
-
-
-    
 ]
+}
