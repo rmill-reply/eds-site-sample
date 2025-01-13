@@ -18,6 +18,12 @@
       "url": "/tools/sidekick/library.html",
       "includePaths": ["**.docx**"]
     }
+{
+ 	"assetDomainMapping": {
+    	  "delivery-p24706-e491522.adobeaemcloud.com":"mediapreprod.store.testdomain.com",
+}
+}		
+	  
     { 
 	"blockName": [ 
     	{ 
