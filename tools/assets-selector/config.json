@@ -19,7 +19,7 @@
         	"groupKey": "AssetTagsGroup", 
         	"fields": [ 
             	{ 
-                	"element": "taggroup", 
+                	"element": "Comwrap-uk", 
                 	"name": "property=metadata.application.xcm:keywords.id", 
                 	"columns": 3 
             	} 
