@@ -10,5 +10,18 @@
       "mimeType": "image/*",
       "value": "reference"
     }
-  ]
+  ],
+  "filterSchema": [ 
+    	{ 
+        	"header": "Assets Tags", 
+        	"groupKey": "aem-demo-assets", 
+        	"fields": [ 
+            	{ 
+                	"element": "asset-source", 
+                	"name": "property=metadata.application.xcm:keywords.id", 
+                	"columns": 3 
+            	} 
+        	] 
+    	} 
+	] 
 }
